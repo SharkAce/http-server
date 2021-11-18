@@ -1,0 +1,36 @@
+body {
+  overflow: hidden;
+  background-color: #353535;
+  display: flex;
+  margin: 0px;
+}
+
+main {
+  color: white;
+  font-size: 18px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  font-family: sans-serif;
+}
+
+#canvas {
+  width: fit-content;
+  margin: 20px
+}
+
+.btn {
+  background-color: grey;
+  width: 65px;
+  height: 25px;
+  margin: 5px
+}
+
+.input {
+  margin: 5px;
+  max-width: 200px;
+  display: grid;
+  grid-template-columns: 60px 60px
+}
+
+.output {}
